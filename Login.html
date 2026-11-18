@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="RegistrationForm">
+    <h1>Login</h1><br></br>
+    <p class="subtitle">Please login to your account</p>
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="Name" id="Name" name="Name" placeholder="Enter Your Name" required>
+      </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="At least 6 characters" minlength="6" required>
+      </div>
+
+    <div class="form-group">
+        <label>Gender</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="male" required> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="">-- Select country --</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="india">India</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+    <button type="submit" class="btn">Register</button>
+    </form>
+
+    </div>
+</body>
+</html>
+
+</body>
+</html>
